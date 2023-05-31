@@ -1,0 +1,100 @@
+*{
+   margin: 0; 
+   padding: 0 ;
+}
+body{
+    background-color: #f1f1f1;
+}
+header{
+    width: 100%;
+    height: 50px;
+    /* background-color: aquamarine; */
+}
+main{
+    width: 100%;
+    height: 90%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    width: 40%;
+    height: 100%;
+    /* background-color: green; */
+}
+.seccion1{
+    width: 70%;
+}
+.area{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+}
+
+.bt-encriptar{
+    width: 25%;
+    height: 40px;
+}
+.bt-Descriptar{
+    width: 25%;
+    height: 40px ;
+}
+
+.contenedor-botones{
+    text-align: center;
+}
+
+.seccion2{
+    width: 20%;
+    background-color: #fff ;
+    border-radius: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.contenedo-muneco{
+    width: 100%;
+    height: 60%;
+    padding-top: 150px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.contenedor-h3{
+    width: 100%;
+    height: 20%;
+}
+.contendor-parrafo{
+    width: 100%;
+    height: 20%;
+}
+.contenedor-resultado{
+    width: 100%;
+    height: 70%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.contenedor-copiar{
+    width: 100%;
+    height: 20%;
+}
+.bt-copiar{
+
+    width: 30%;
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+footer{
+    width: 100%;
+    height: 50%;
+    /* background-color: darkcyan; */
+    text-align: center;
+}
+.ocultarmuneco{
+    display:none;
+}
